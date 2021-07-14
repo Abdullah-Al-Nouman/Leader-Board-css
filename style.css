@@ -1,0 +1,75 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    /* height: 679px; */
+    padding: 30px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+}
+.top-players{
+    /* top players div and hr line er majhe 30 px gap rakha hoise  */
+    margin-bottom: 30px;
+}
+hr{
+    border: 1px solid blue;
+}
+/* top player style */
+.players{
+    display: grid;
+
+    /* 3 column defined */
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/*-------------------------
+ 2nd part design Top blogs 
+ --------------------------*/
+ .blog{
+     display: flex;
+ }
+ .blog-info{
+     margin-left: 16px;
+ }
+.blog .thumbanil img{
+    width: 177px;
+    height: 117px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: grey;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16;
+}
